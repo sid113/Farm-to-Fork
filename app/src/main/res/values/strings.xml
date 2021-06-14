@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">ZermoMe</string>
+    <string name="login_preference">com.example.hp.loginprefrence</string>
+    <string name="login_status">com.example.hp.login_status</string>
+    <string name="hint_dob">Enter D.O.B (DD/MM/YYYY)</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_gender">I am</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="btn_sign_up">Sign Up !!</string>
+    <string name="err_msg_name">Please enter a Name</string>
+    <string name="err_msg_required">Valid Input Required</string>
+    <string name="err_msg_email">Please enter a Valid Email</string>
+    <string name="err_msg_password">Enter a Password</string>
+    <string name="err_msg_dob">Enter a valid D.O.B</string>
+    <string name="title_activity_home_with_navigation">HomeWithNavigation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="my_text"> <u>Login</u>.</string>
+    <string name="nameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a valid mobile</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_welcome">Home Screen</string>
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Hello Food!</string>
+    <string name="slide_1_desc">The easiest way to order food from your favourite restaurant!</string>
+
+    <string name="slide_2_title">Movie Tickets</string>
+    <string name="slide_2_desc">Book movie tickets for your family and friends!</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">World Travel</string>
+    <string name="slide_4_desc">Book tickets of any transportation and travel the world!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="title_activity_for__processor">For_Processor</string>
+
+    <string-array name="types">
+        <item>1 Kg</item>
+        <item>2 Kg</item>
+        <item>3 Kg</item>
+        <item>4 Kg</item>
+        <item>5 Kg</item>
+        <item>6 Kg</item>
+        <item>7 Kg</item>
+        <item>8 Kg</item>
+        <item>9 Kg</item>
+        <item>10 Kg</item>
+        <item>11 Kg</item>
+        <item>12 Kg</item>
+        <item>13 Kg</item>
+        <item>14 Kg</item>
+        <item>15 Kg</item>
+    </string-array>
+
+
+</resources>
+

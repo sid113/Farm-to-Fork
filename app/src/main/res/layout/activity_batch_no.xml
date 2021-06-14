@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Batch_no">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hii user"
+        android:fontFamily="sans-serif-light"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="Your account Has been Successfully created..Click Here"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/login"
+        android:textColor="#0000EE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/message"
+        android:text="@string/my_text"
+        android:textSize="20sp"
+        />
+
+    <Button
+        android:id="@+id/button4"
+        android:textColor="#fbfbfd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="178dp"
+        android:background="@drawable/button_rounded_corners_gradient"
+        android:text="OK" />
+
+
+</RelativeLayout>

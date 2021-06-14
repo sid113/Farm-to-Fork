@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.hp.zermome">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreeenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Registration" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ForgetPasswordActivity" />
+        <activity android:name=".selectionActivity" />
+        <activity android:name=".ScannerActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity
+            android:name=".HomeWithNavigation"
+            android:label="@string/title_activity_home_with_navigation"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+            android:screenOrientation="fullSensor"
+            tools:replace="screenOrientation" />
+        <activity android:name=".AccountCreated" />
+        <activity android:name=".ProcessorRegistration" />
+        <activity android:name=".RetailerLogin" />
+        <activity android:name=".Batch_no" />
+        <activity
+            android:name=".For_Processor"
+            android:label="@string/title_activity_for__processor"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Account_created"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "811546518291",
+    "firebase_url": "https://zermome.firebaseio.com",
+    "project_id": "zermome",
+    "storage_bucket": "zermome.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:811546518291:android:15c64e232ec482e4",
+        "android_client_info": {
+          "package_name": "com.example.hp.zermome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "811546518291-ll7ocjccvjon6k33kkgb4dng9qvkfttb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hp.zermome",
+            "certificate_hash": "2ac7740ddcaafe95d45e93d36bb6af115cec3d6e"
+          }
+        },
+        {
+          "client_id": "811546518291-sn4u0me3m233lcoshehbj2lt56kqq3ft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0r3DZ1xVYNErZilnAmxLCp7AovO-OcV0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "811546518291-sn4u0me3m233lcoshehbj2lt56kqq3ft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
